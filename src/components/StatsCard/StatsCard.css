@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+.stats-card {
+    background: linear-gradient(293deg, rgba(163, 189, 237, 0.40) 0%, rgba(105, 145, 199, 0.40) 100%);
+    width: 60%;
+    height: 40%;
+    border-radius: 30px;
+    font-family: Tsukimi Rounded;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.stats-card h1 {
+    font-size: 2em;
+}
+
+.stats-card > section {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+canvas {
+    height: 20%;
+}

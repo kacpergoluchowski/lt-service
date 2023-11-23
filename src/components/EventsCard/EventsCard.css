@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+.events-card {
+    background: linear-gradient(293deg, rgba(163, 189, 237, 0.40) 0%, rgba(105, 145, 199, 0.40) 100%);
+    width: 30%;
+    height: 40%;
+    border-radius: 30px;
+    font-family: Tsukimi Rounded;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.events-card h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.events-card span {
+    color: #A1A1A1;
+}
+
+.events-list_wrapper {
+    margin-top: 2vh;
+}
+
+.events-list_wrapper li {
+    margin: 20px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3em;
+}
+
